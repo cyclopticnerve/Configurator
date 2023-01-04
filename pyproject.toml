@@ -1,0 +1,47 @@
+# ------------------------------------------------------------------------------
+# Project : Configurator                                           /          \ 
+# Filename: configurator                                          |     ()     |
+# Date    : 01/04/2023                                            |            |
+# Author  : cyclopticnerve                                        |   \____/   |
+# License : WTFPLv2                                                \          /
+# ------------------------------------------------------------------------------
+
+[build-system]
+requires = [
+    "setuptools>=59.6.0",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "configurator"
+version = "0.1.0"
+description = "A small Python module that makes working with json settings files easier"
+readme = "README.md"
+authors = [
+    {name = "cyclopticnerve", email = "cyclopticnerve@gmail.com"}
+]
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = [
+    "config",
+	"settings",
+	"json",
+	"dictionary",
+	"configuration",
+	"dict"
+]
+dependencies = [
+    
+] 
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/cyclopticnerve/Configurator"
+
+# -)
