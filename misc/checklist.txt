@@ -12,9 +12,9 @@ VSCodium
     ??? Get github token from ~/.git-credentials (from : to @)
     ??? $ git remote set-url origin 
         https://<githubtoken>@github.com/<username>/<repositoryname>.git
-    [] Stage all changes
-    [] Commit 'first commit'
-    [] Publish 'main' branch
+    [X] Stage all changes
+    [X] Commit 'first commit'
+    [X] Publish 'main' branch
     [] Checkout new branch 'dev' from 'main'
     [] Publish 'dev' branch
 
